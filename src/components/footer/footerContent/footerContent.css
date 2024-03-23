@@ -1,0 +1,62 @@
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    /* gap: 8rem; */
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-titles {
+    color: white;
+
+}
+
+.footer-subs {
+    color: #82838e
+}
+
+.trustpilot {
+    display: flex;
+    color: #d8d8d8
+}
+
+.column-subs {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.column-title {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media (max-width: 780px) {
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-subs,
+    .footer-titles {
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width: 1068px) {
+    .footer-content {
+        width: 95%;
+
+    }
+}

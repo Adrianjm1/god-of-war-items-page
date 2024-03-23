@@ -1,0 +1,13 @@
+.game-selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(55, 56, 75, 0.7);
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+}
+
+.game-selector i {
+    margin: 0 10px;
+}

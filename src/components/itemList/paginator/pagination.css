@@ -1,0 +1,28 @@
+.paginator {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+
+.paginator button {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.paginator .arrows-button {
+    border-radius: 5px;
+    background-color: #323648;
+    border: 1px solid #5762d5;
+    color: white;
+    margin: 0 2px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #5762d5;
+}

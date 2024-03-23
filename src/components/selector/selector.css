@@ -1,0 +1,22 @@
+.selectors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+    margin: 1rem 0;
+    /* background-color: red; */
+}
+
+.search-group {
+    display: flex;
+    flex-grow: 1;
+}
+
+.search-bar {
+    flex: 2;
+}
+
+.filter {
+    flex: 0.5;
+}
