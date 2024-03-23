@@ -1,4 +1,3 @@
-import React from 'react'
 import { rootImage } from '../../../core/rootImages'
 import './rrss.css'
 export const Rrss = () => {

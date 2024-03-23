@@ -1,4 +1,3 @@
-import React from 'react'
 import './footer.css'
 import { FooterContent } from './footerContent/FooterContent'
 import { Rrss } from './rrss/Rrss'

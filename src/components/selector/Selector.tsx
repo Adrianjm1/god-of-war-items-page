@@ -1,4 +1,3 @@
-import React from 'react'
 import { GameSelector } from './GameSelector/GameSelector'
 import { SearchBar } from './SearchBar/SearchBar/SearchBar'
 import { Filter } from './SearchBar/Filter/Filter'
