@@ -1,3 +1,4 @@
+import useResize from '../../../hooks/useResize';
 import './pagination.css'
 
 interface PaginatorProps {
@@ -6,10 +7,16 @@ interface PaginatorProps {
     onPageChange: (page: number) => void;
 }
 
+const PAGINATOR_BREAKPOINT = 500;
+
+
+
 const Paginator: React.FC<PaginatorProps> = ({ currentPage, totalPages, onPageChange }) => {
-    const maxPagesToShow = 4;
+    const isWindowLarger = useResize(PAGINATOR_BREAKPOINT);
+    const maxPagesToShow = isWindowLarger ? 4 : 2;
     const startPage = Math.max(1, currentPage - Math.floor(maxPagesToShow / 2));
     const endPage = Math.min(totalPages, startPage + maxPagesToShow - 1);
+
 
     const renderPageButton = (page: number, isActive: boolean = false) => (
         <div className={isActive ? 'active' : 'pag-button'}>
