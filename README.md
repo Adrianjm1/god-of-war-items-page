@@ -11,7 +11,7 @@ God of war Item Shop
 
 - Responsive design that adapts to different screen sizes (mobile, tablet, and desktop).
 - Consistent card proportions across all screen sizes to ensure a uniform user experience.
-- Images from [your favorite game] used as asset substitutes.
+- Images from your favorite game used as asset substitutes.
 
 ## How to Run the Project
 
