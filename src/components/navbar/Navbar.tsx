@@ -17,10 +17,9 @@ export const Navbar = () => {
 
     const isWindowLarger = useResize(NAVBAR_BREAKPOINT);
 
-
     return (
         <div className="navbar">
-            <div className="items-start">
+            <div className={`items-start `}>
                 <div className='mainContent'>
                     <div className="logo"> <img width={200} src={rootImage.navbar.logo} /></div>
                     <div className="hamburger-menu" onClick={toggleOpen}>
@@ -29,13 +28,13 @@ export const Navbar = () => {
                 </div>
                 <div className="divider"></div>
                 {(isOpen || isWindowLarger) &&
-                    <div className='navbar-items-start'>
+                    <div className='navbar-items-start '>
                         {navbarStartItems.map(item => <NavbarItem item={item} />)}
                     </div>
                 }
             </div>
             {(isOpen || isWindowLarger) &&
-                <div className="items-end">
+                <div className={`items-end ${isOpen ? 'animate-in' : ''}`}>
                     <div className="navbar-item">
                         {'USD'} <img className='downArrow-icon' width={10} src={rootImage.navbar.downArrow} />
                     </div>

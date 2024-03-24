@@ -21,7 +21,9 @@ const Paginator: React.FC<PaginatorProps> = ({ currentPage, totalPages, onPageCh
 
     const renderEllipsis = () => (
         <div className='pag-button'>
-            <span style={{ color: 'white' }}>...</span>
+            <button style={{ cursor: 'default' }} disabled={true}>
+                ...
+            </button>
         </div>
     );
 

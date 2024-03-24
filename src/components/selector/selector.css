@@ -18,5 +18,13 @@
 }
 
 .filter {
-    flex: 0.5;
+    flex: 0.6;
+}
+
+
+/* Change flex direction to column on mobile devices */
+@media (max-width: 768px) {
+    .selectors {
+        flex-direction: column;
+    }
 }

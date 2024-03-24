@@ -2,16 +2,22 @@
     display: flex;
     justify-content: center;
     gap: 3px;
+    padding-bottom: 2.5rem;
 }
 
 .paginator button {
-    padding: 5px;
+    padding: 10px 12px;
     border-radius: 5px;
     background-color: transparent;
     color: white;
     border: none;
     margin: 0 2px;
     cursor: pointer;
+}
+
+.pag-button {
+    border-radius: 10px;
+    cursor: default;
 }
 
 .paginator .arrows-button {

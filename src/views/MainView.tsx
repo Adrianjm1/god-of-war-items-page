@@ -8,7 +8,7 @@ export const MainView = () => {
 
 
     return (
-        <div>
+        <div style={{ width: '100%' }}>
             <Navbar />
             <BackgroundContainer>
                 <Container />

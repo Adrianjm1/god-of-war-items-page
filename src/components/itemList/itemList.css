@@ -4,7 +4,7 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     /* Cambia 200px al tamaño mínimo que deseas para tus tarjetas */
     gap: 20px;
-    padding: 50px 0px;
+    padding: 0px 0px 50px;
     justify-items: center;
     align-items: center;
     margin: auto;

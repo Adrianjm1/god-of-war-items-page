@@ -75,10 +75,7 @@
 
 
 
-/* Estilos para pantallas con un ancho máximo de 768px (tablets y móviles) */
 @media (max-width: 1238px) {
-
-
     .hamburger-menu {
         display: block;
         position: absolute;
@@ -88,6 +85,9 @@
     }
 
     .navbar {
+        position: fixed;
+        z-index: 999;
+        width: 100%;
         flex-direction: column;
         height: auto;
         justify-content: center;
@@ -109,21 +109,17 @@
         width: auto;
     }
 
-
     .signup-button {
         width: 80%;
     }
 
-
     .items-end {
         margin-top: 10px;
         padding-bottom: 20px;
-
     }
 
     .items-end,
     .navbar-items-start {
         gap: 16px;
     }
-
 }
