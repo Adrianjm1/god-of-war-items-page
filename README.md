@@ -15,10 +15,10 @@ God of war Item Shop
 
 ## How to Run the Project
 
-1. Clone the repository: `git clone [repository URL]`.
-2. Navigate to the project directory: `cd [project name]`.
+1. Clone the repository: `git clone https://github.com/Adrianjm1/god-of-war-items-page`.
+2. Navigate to the project directory: `cd god-of-war-items-page`.
 3. Install dependencies: `npm install` or `yarn install`.
-4. Run the project: `npm start` or `yarn start`.
+4. Run the project: `npm run dev`.
 
 ## Design and Assets
 
@@ -28,7 +28,7 @@ I chose to use a "God of War" theme for this project. All images and assets were
 
 ## Live Demo
 
-If possible, provide a link to a live demo of your application.
+`https://god-of-war-item-shop.netlify.app`
 
 ## Design Choices
 
