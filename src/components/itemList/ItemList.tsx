@@ -7,7 +7,7 @@ import './itemList.css'
 
 export const ItemList: React.FC<ItemListProps> = ({ items }) => {
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 15; // Cambia esto al número de items que quieres mostrar por página
+    const itemsPerPage = 15;
     const totalPages = Math.ceil(items.length / itemsPerPage);
 
     const onPageChange = (page: number) => {

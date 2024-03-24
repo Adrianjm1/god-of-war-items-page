@@ -10,8 +10,8 @@ export const BackgroundContainer: React.FC<BackgroundContainerProps> = ({ childr
         <div className='background-container' style={{ position: 'relative' }}>
             <div style={{
                 backgroundImage: `url(${rootImage.container.background})`,
-                backgroundSize: 'cover', // Asegura que la imagen cubra todo el div
-                backgroundPosition: 'center', // Centra la imagen en el div
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
                 position: 'absolute',
                 top: 0,
                 bottom: 0,
@@ -19,7 +19,7 @@ export const BackgroundContainer: React.FC<BackgroundContainerProps> = ({ childr
                 right: 0,
             }} />
             <div style={{
-                backgroundColor: 'rgba(69, 70, 89, 0.8)', // #454659 con transparencia 0.9
+                backgroundColor: 'rgba(69, 70, 89, 0.8)',
                 position: 'absolute',
                 top: 0,
                 bottom: 0,
