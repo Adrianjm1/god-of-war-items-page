@@ -1,4 +1,4 @@
-# [Project Name]
+# Project Name
 
 God of war Item Shop
 
